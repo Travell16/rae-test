@@ -1,0 +1,15 @@
+---
+
+
+- name: Perform a set of tasks on multiple servers
+  hosts: all
+  vars:
+    lastname: coleman
+    firstname: travell
+    stype_jump: jump
+    stype_local: local
+
+
+   tasks:
+     -
+
